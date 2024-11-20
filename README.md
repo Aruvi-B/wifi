@@ -96,6 +96,18 @@ Once the extensions are installed, PlatformIO will begin configuring your enviro
 
 ![PlatformIO Configuring](https://github.com/Aruvi-B/wifi/blob/main/Images/reload-platformio.png?raw=true)
 
+## Integration Steps
+
+1. Place the `platformio.ini` and `wokwi.toml` files in your project root directory.
+
+2. Build the firmware in PlatformIO:
+   ```bash
+   pip install platformio
+   pio run
+
+- Use the generated firmware files (.elf and .hex) in the wokwi.toml configuration.
+- Run the Wokwi simulator and test your setup.
+
 ### 6. Build the Project
 Click the commit button to ensure the changes are confirmed.
 
