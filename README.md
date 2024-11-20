@@ -1,4 +1,4 @@
-# Arduino Flip-Flop LED Project
+# Wifi scanning using ESP32
 
 ## Overview
 This project demonstrates a simple wifi scanning tool is a user-friendly application designed to detect, and display available WiFi networks.
